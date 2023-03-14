@@ -130,3 +130,12 @@ h2{
     font-size: 10px;
 }
 
+.check{
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+}
+
+.cross{
+    border: 2px solid rgb(243, 1, 1);
+    border-radius: 20px;
+}
