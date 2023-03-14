@@ -20,10 +20,13 @@ img{
     width: 60px;
     margin-left: 40px;
     margin-top: 20px;
+    margin-bottom: 10px;
+    vertical-align:middle;
 }
 
 #logo-text{
     font-size: 40px;
+    line-height: 60px;
 }
 
 /* main style */
@@ -33,9 +36,10 @@ img{
     width: 60%;
     height: 800px;
     margin: 20px auto;
-    border-radius: 7%;
+    border-radius: 20px;
 }
 
+/* botton section */
 #button-task{
     background-color: rgb(0, 119, 255);
     border: none;
@@ -55,4 +59,74 @@ img{
 
 #button{
     padding: 30px;
+    border-bottom: solid 1px lightgrey;
 }
+
+/* new task */
+
+.tasks{
+    padding: 15px;
+}
+
+h2{
+    display: inline-block;
+}
+
+.editorial{
+    background-color: rgb(0, 153, 255);
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+}
+
+.text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+
+/* today */
+
+.goal{
+    background-color: rgb(161, 1, 224);
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    font-size: 10px; 
+}
+
+.recruiting{
+    background-color: rgb(6, 199, 6);
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+}
+
+.mobile{
+    background-color: rgb(243, 130, 0);
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+}
+/* upcoming */
+
+.website{
+    background-color: rgb(141, 7, 7);
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+}
+
+.sales{
+    background-color: rgb(28, 75, 1);
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+}
+
