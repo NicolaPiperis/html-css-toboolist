@@ -1,0 +1,58 @@
+/* general rules */
+*{
+    font-family: 'Sono', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+/* header style */
+
+#header-container{
+    background-color: white;
+}
+
+img{
+    width: 60px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#logo-text{
+    font-size: 40px;
+}
+
+/* main style */
+
+#main-conteiner{
+    background-color: white;
+    width: 60%;
+    height: 800px;
+    margin: 20px auto;
+    border-radius: 7%;
+}
+
+#button-task{
+    background-color: rgb(0, 119, 255);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 14px;
+    cursor: pointer;
+}
+
+#button-section{
+    color: lightgrey;
+    border: solid lightgray 1px;
+    border-radius:8px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#button{
+    padding: 30px;
+}
